@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max comun div</title>
+    <script src="./teoriaNumeros4.js"></script>
+    <link rel="stylesheet" href="style_tn4.css">
+</head>
+
+<body>
+    <h1>Calculo máximo común divisor de dos números ṕr el algoritmo de la diferencia</h1>
+    <hr>
+
+    <p class="description">
+        Escribe en los cuadros de texto, dos números enteros para hallar su mcd. Para pasar de un cuadro al siguiente pulsa la tecla de tabulacion [Tab]. Al situarse en el último cuadro, automáticamente apareceŕa el valor del mcd.
+    </p>
+    <br>
+    <hr>
+    <form>
+        <p class="text_input">Primer Número: <input type="text" size="10" name="a"></p>
+        <br><br>
+        <p class="text_input">Segundo Número: <input type="text" size="10" name="b" onblur="document.forms[0].result.value=mcdEuclides(document.forms[0].a.value, this.value)"></p>
+        <br><br>
+        <hr>
+        <p class="text_input"><b>El mcd es: <input type="text" size="10" name="result"> </b></p>
+    </form>
+</body>
+
+</html>

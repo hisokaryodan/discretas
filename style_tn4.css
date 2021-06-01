@@ -1,0 +1,18 @@
+    body {
+        background-color: #3520ff;
+    }
+    
+    h1 {
+        color: #ff0000;
+        align-items: center;
+    }
+    
+    .description {
+        color: #ffffff;
+    }
+    
+    .text_input {
+        align-items: center;
+        color: yellow;
+        font-size: 30px;
+    }
