@@ -22,5 +22,5 @@ if (base < 10) {
     }
     document.write(" en base " + base + "</h1>")
 } else {
-alert("La Base debe ser menor que diez")
+    alert("La Base debe ser menor que diez")
 }
